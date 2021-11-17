@@ -1,0 +1,17 @@
+{
+	"name": "NEW_PIPELINE",
+	"properties": {
+		"activities": [
+			{
+				"name": "NEW_WAIT",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"annotations": []
+	}
+}
